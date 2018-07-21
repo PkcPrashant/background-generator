@@ -1,0 +1,22 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build":"browserify script.js > bundle.js && set PORT=8000 && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PkcPrashant/background-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PkcPrashant/background-generator/issues"
+  },
+  "homepage": "https://github.com/PkcPrashant/background-generator#readme",
+  "dependencies": {
+    "loadash": "^1.0.0"
+  }
+}
